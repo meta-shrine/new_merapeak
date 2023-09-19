@@ -1,0 +1,28 @@
+#block-search, #block-search * {
+    box-sizing: border-box;
+}
+
+#block-search {
+    background: #F5F5F5;
+}
+
+@media screen and (min-width: 1200px) {
+    #block-search.main {
+        position: relative;
+        z-index: 3;
+        margin-bottom: -93px;
+        background: rgba(235, 235, 235, 0.90);
+    }
+}
+
+.be-container {
+    padding: 0 30px;
+}
+
+#be-booking-form {
+    z-index: 1;
+}
+
+#be-anchor {
+    margin: 0 0 15px;
+}
